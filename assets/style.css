@@ -16,7 +16,8 @@ body {
 
 section#intro {
     font-family: cursive;
-    height: 175px;
+    min-height: 175px;
+    height: auto;
     text-align: center;
     background-color: #000000;
 }
@@ -60,8 +61,8 @@ section#sectionGNote {
 
 section#sectionANote {
     position: relative;
-    height: 75px;
-    width: 75px;
+    height: 100px;
+    width: 100px;
     border: 2px solid #db1d2d;
     background-color: #3e181b;
 }
@@ -79,8 +80,8 @@ section#sectionANote:active {
 
 section#sectionBNote {
     position: relative;
-    height: 75px;
-    width: 75px;
+    height: 100px;
+    width: 100px;
     border: 2px solid #f0421c;
     background-color: #422018;
 }
@@ -98,8 +99,8 @@ section#sectionBNote:active {
 
 section#sectionCNote {
     position: relative;
-    height: 75px;
-    width: 75px;
+    height: 100px;
+    width: 100px;
     border: 2px solid #fec02d;
     background-color: #45391b;
 }
@@ -117,8 +118,8 @@ section#sectionCNote:active {
 
 section#sectionDNote {
     position: relative;
-    height: 75px;
-    width: 75px;
+    height: 100px;
+    width: 100px;
     border: 2px solid #20d071;
     background-color: #193c29;
 }
@@ -136,8 +137,8 @@ section#sectionDNote:active {
 
 section#sectionENote {
     position: relative;
-    height: 75px;
-    width: 75px;
+    height: 100px;
+    width: 100px;
     border: 2px solid #1a9ddb;
     background-color: #18323e;
 }
@@ -155,8 +156,8 @@ section#sectionENote:active {
 
 section#sectionFNote {
     position: relative;
-    height: 75px;
-    width: 75px;
+    height: 100px;
+    width: 100px;
     border: 2px solid #a13fad;
     background-color: #331f35;
 }
@@ -174,8 +175,8 @@ section#sectionFNote:active {
 
 section#sectionGNote {
     position: relative;
-    height: 75px;
-    width: 75px;
+    height: 100px;
+    width: 100px;
     border: 2px solid #f26fd4;
     background-color: #43293d;
 }
@@ -202,5 +203,4 @@ footer {
     text-align: center;
     font-family: cursive;
 }
-
 
