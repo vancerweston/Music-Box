@@ -1,0 +1,210 @@
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
+/*Body*/
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color:#111111;
+}
+
+/*Intro Section*/
+
+section#intro {
+    font-family: cursive;
+    height: 175px;
+    text-align: center;
+    background-color: #000000;
+}
+
+h2{
+    margin: 0 auto 10px auto;
+    padding-top: 25px;
+    color: white;
+}
+
+p {
+    padding-bottom: 25px;
+    color: white;
+    width: 60%;
+    margin: auto;
+}
+
+/*Note Page location*/
+
+main {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+    align-content: stretch;
+    margin: 180px auto auto auto;
+}
+
+section#sectionANote,
+section#sectionBNote,
+section#sectionCNote,
+section#sectionDNote,
+section#sectionENote,
+section#sectionFNote,
+section#sectionGNote {
+    margin-left: 5px;
+}
+
+/*Note A*/
+
+section#sectionANote {
+    position: relative;
+    height: 75px;
+    width: 75px;
+    border: 2px solid #db1d2d;
+    background-color: #3e181b;
+}
+
+section#sectionANote:hover {
+    background-color: #db1d2d;
+}
+
+section#sectionANote:active {
+    background-color: #db1d2d;
+    top: 2px;
+}
+
+/*Note B*/
+
+section#sectionBNote {
+    position: relative;
+    height: 75px;
+    width: 75px;
+    border: 2px solid #f0421c;
+    background-color: #422018;
+}
+
+section#sectionBNote:hover {
+    background-color: #f0421c;
+}
+
+section#sectionBNote:active {
+    background-color: #f0421c;
+    top: 2px;
+}
+
+/*Note C*/
+
+section#sectionCNote {
+    position: relative;
+    height: 75px;
+    width: 75px;
+    border: 2px solid #fec02d;
+    background-color: #45391b;
+}
+
+section#sectionCNote:hover {
+    background-color: #fec02d;
+}
+
+section#sectionCNote:active {
+    background-color: #fec02d;
+    top: 2px;
+}
+
+/*Note D*/
+
+section#sectionDNote {
+    position: relative;
+    height: 75px;
+    width: 75px;
+    border: 2px solid #20d071;
+    background-color: #193c29;
+}
+
+section#sectionDNote:hover {
+    background-color: #20d071;
+}
+
+section#sectionDNote:active {
+    background-color: #20d071;
+    top: 2px;
+}
+
+/*Note E*/
+
+section#sectionENote {
+    position: relative;
+    height: 75px;
+    width: 75px;
+    border: 2px solid #1a9ddb;
+    background-color: #18323e;
+}
+
+section#sectionENote:hover {
+    background-color: #1a9ddb;
+}
+
+section#sectionENote:active {
+    background-color: #1a9ddb;
+    top: 2px;
+}
+
+/*Note F*/
+
+section#sectionFNote {
+    position: relative;
+    height: 75px;
+    width: 75px;
+    border: 2px solid #a13fad;
+    background-color: #331f35;
+}
+
+section#sectionFNote:hover {
+    background-color: #a13fad;
+}
+
+section#sectionFNote:active {
+    background-color: #a13fad;
+    top: 2px;
+}
+
+/*Note G*/
+
+section#sectionGNote {
+    position: relative;
+    height: 75px;
+    width: 75px;
+    border: 2px solid #f26fd4;
+    background-color: #43293d;
+}
+
+section#sectionGNote:hover {
+    background-color: #f26fd4;
+}
+
+section#sectionGNote:active {
+    background-color: #f26fd4;
+    top: 2px;
+}
+
+/*Footer*/
+
+footer {
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    bottom: 0;
+    color: white;
+    padding-top: 10px;
+    background-color: #000000;
+    text-align: center;
+    font-family: cursive;
+}
+
+
+
+@media only screen and (min-width: 30em) {
+    main figure {width:70%;float: right;} 
+ }
